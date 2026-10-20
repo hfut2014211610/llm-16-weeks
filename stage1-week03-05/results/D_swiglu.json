@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 10000.0,
+  "ffn": "swiglu",
+  "kv_heads": null,
+  "bias": 1,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/D_swiglu.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 208481,
+ "kv_bytes_per_token": 2048,
+ "curve": [
+  [
+   0,
+   4.304837703704834,
+   4.291942596435547
+  ],
+  [
+   250,
+   2.0413193702697754,
+   2.087024450302124
+  ],
+  [
+   500,
+   1.7876282930374146,
+   1.9104928970336914
+  ],
+  [
+   750,
+   1.6714938879013062,
+   1.8298122882843018
+  ],
+  [
+   1000,
+   1.6029428243637085,
+   1.7656446695327759
+  ],
+  [
+   1250,
+   1.5754318237304688,
+   1.7661243677139282
+  ],
+  [
+   1500,
+   1.543859839439392,
+   1.7248892784118652
+  ],
+  [
+   1750,
+   1.5076550245285034,
+   1.7170634269714355
+  ],
+  [
+   2000,
+   1.4907265901565552,
+   1.6774778366088867
+  ],
+  [
+   2250,
+   1.4746724367141724,
+   1.6872303485870361
+  ],
+  [
+   2500,
+   1.4639135599136353,
+   1.6631438732147217
+  ],
+  [
+   2750,
+   1.451757788658142,
+   1.6826744079589844
+  ],
+  [
+   3000,
+   1.4386394023895264,
+   1.6630703210830688
+  ]
+ ],
+ "final_train": 1.4386394023895264,
+ "final_val": 1.6630703210830688,
+ "seconds": 221.4,
+ "extrap": {
+  "T": 128,
+  "val": 1.8455685377120972
+ },
+ "sample": "\n\nKING LEWIS XI:\nNo, for the rings on a nobleman king,\nBut and delivegreequirect by that God,\nHis soon, that it u\nceptitio\nTo confessible, but leading them and for need.\nSupposed to but not. What and do men codled him\nTo poor grant like was cares too. How matchann,\nIs convertols; consul, boy, an-sobe"
+}
