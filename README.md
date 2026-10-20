@@ -4,8 +4,8 @@
 
 | 目录 | 阶段 | 周 | 内容 | 状态 |
 |---|---|---|---|---|
-| `stage0-week01-02/` | 阶段 0 补底子 | 第 1–2 周 | micrograd → Bigram → MLP → 字符级 GPT | 学习中 |
-| `stage1-week03-05/` | 阶段 1 前沿架构与原理 | 第 3–5 周 | GPT 改 Llama 结构 + MoE 层 | 未开始 |
+| `stage0-week01-02/` | 阶段 0 补底子 | 第 1–2 周 | 第1批：从 GPT 往回拆；`week02/`：MLP、初始化、激活函数、BatchNorm | 学习中 |
+| `stage1-week03-05/` | 阶段 1 前沿架构与原理 | 第 3–5 周 | 第2批：GPT → Llama（RMSNorm、RoPE、SwiGLU、GQA）+ 消融；后续 MoE | 已发讲义 |
 | `stage2-week06-07/` | 阶段 2 思考·注意力·记忆 | 第 6–7 周 | KV Cache 与推理加速 | 未开始 |
 | `stage3-week08-10/` | 阶段 3 从零训练 | 第 8–10 周 | BPE、nanochat 完整训练 | 未开始 |
 | `stage4-week11-13/` | 阶段 4 后训练与调参 | 第 11–13 周 | Qwen3 小模型 SFT + GRPO | 未开始 |
