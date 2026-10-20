@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 100.0,
+  "ffn": "swiglu",
+  "kv_heads": 2,
+  "bias": 0,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/X_theta100.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 190144,
+ "kv_bytes_per_token": 1024,
+ "curve": [
+  [
+   0,
+   4.350215911865234,
+   4.356693744659424
+  ],
+  [
+   250,
+   2.0531134605407715,
+   2.0907821655273438
+  ],
+  [
+   500,
+   1.8050836324691772,
+   1.9273948669433594
+  ],
+  [
+   750,
+   1.686628818511963,
+   1.8496034145355225
+  ],
+  [
+   1000,
+   1.6237471103668213,
+   1.7861865758895874
+  ],
+  [
+   1250,
+   1.5826421976089478,
+   1.7665419578552246
+  ],
+  [
+   1500,
+   1.5509730577468872,
+   1.7473092079162598
+  ],
+  [
+   1750,
+   1.5174572467803955,
+   1.7422418594360352
+  ],
+  [
+   2000,
+   1.5176719427108765,
+   1.708364725112915
+  ],
+  [
+   2250,
+   1.504225730895996,
+   1.702152967453003
+  ],
+  [
+   2500,
+   1.4722907543182373,
+   1.6820520162582397
+  ],
+  [
+   2750,
+   1.477137804031372,
+   1.6884411573410034
+  ],
+  [
+   3000,
+   1.4520623683929443,
+   1.6898061037063599
+  ]
+ ],
+ "final_train": 1.4520623683929443,
+ "final_val": 1.6898061037063599,
+ "seconds": 190.9,
+ "extrap": {
+  "T": 128,
+  "val": 2.036045789718628
+ },
+ "sample": "\n\nKIDY CAREENCE:\nNo, for the read, only noble county yet are\ncerely his cqurt of the maid to gry heart,\nFor their\nceremen adming.\n\nFirst Servant:\nFor how our prenger?\n\nLADY CAPULET:\nAs both not sir, but Warwisdous him,\nThat womb her movedurn\nTarking, you know and were counselt would,\nThe boot an-some"
+}
