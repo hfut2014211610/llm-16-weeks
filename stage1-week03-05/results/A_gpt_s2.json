@@ -1,0 +1,97 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "ln",
+  "pos": "learned",
+  "rope_theta": 10000.0,
+  "ffn": "relu",
+  "kv_heads": null,
+  "bias": 1,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 0,
+  "log": "results/A_gpt_s2.json",
+  "sample": 300,
+  "seed": 2
+ },
+ "params": 211777,
+ "kv_bytes_per_token": 2048,
+ "curve": [
+  [
+   0,
+   4.417337417602539,
+   4.418442249298096
+  ],
+  [
+   250,
+   2.4290826320648193,
+   2.4421634674072266
+  ],
+  [
+   500,
+   2.215299606323242,
+   2.2380454540252686
+  ],
+  [
+   750,
+   2.0625813007354736,
+   2.1069116592407227
+  ],
+  [
+   1000,
+   1.953546404838562,
+   2.0282583236694336
+  ],
+  [
+   1250,
+   1.8664331436157227,
+   1.9643155336380005
+  ],
+  [
+   1500,
+   1.7941120862960815,
+   1.9101063013076782
+  ],
+  [
+   1750,
+   1.7441333532333374,
+   1.8777323961257935
+  ],
+  [
+   2000,
+   1.7076491117477417,
+   1.86753249168396
+  ],
+  [
+   2250,
+   1.6651971340179443,
+   1.815242052078247
+  ],
+  [
+   2500,
+   1.6357342004776,
+   1.8034461736679077
+  ],
+  [
+   2750,
+   1.618208885192871,
+   1.7949917316436768
+  ],
+  [
+   3000,
+   1.5855226516723633,
+   1.7602789402008057
+  ]
+ ],
+ "final_train": 1.5855226516723633,
+ "final_val": 1.7602789402008057,
+ "seconds": 167.9,
+ "sample": "\n\nKIDY LING\nThan you for the sun of the nobled fe thy efear heed\nWill that report we man's planly soo\nTwo look au\ncertier fament.\n\nFORKERS RICHARD III:\n\nRoman:\nThy name deval, if God, thought hast:'\nWhat thou die you laught'st to not\nWillund\nTake toon abok thou have steequed? but consurs, what?\n\nLEON"
+}
