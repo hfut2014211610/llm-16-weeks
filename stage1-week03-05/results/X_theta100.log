@@ -1,0 +1,32 @@
+配置: norm=rms pos=rope ffn=swiglu heads=4 kv_heads=2 bias=0 tie=0 rope_theta=100
+参数量: 190144 (0.1901M) | KV cache 每个 token: 1024 字节 (fp32)
+step 0: train 4.3502, val 4.3567  (2s)
+step 250: train 2.0531, val 2.0908  (18s)
+step 500: train 1.8051, val 1.9274  (34s)
+step 750: train 1.6866, val 1.8496  (49s)
+step 1000: train 1.6237, val 1.7862  (65s)
+step 1250: train 1.5826, val 1.7665  (80s)
+step 1500: train 1.5510, val 1.7473  (96s)
+step 1750: train 1.5175, val 1.7422  (112s)
+step 2000: train 1.5177, val 1.7084  (128s)
+step 2250: train 1.5042, val 1.7022  (143s)
+step 2500: train 1.4723, val 1.6821  (159s)
+step 2750: train 1.4771, val 1.6884  (175s)
+step 3000: train 1.4521, val 1.6898  (191s)
+外推：训练长度 64，在长度 128 上 val 2.0360
+
+
+KIDY CAREENCE:
+No, for the read, only noble county yet are
+cerely his cqurt of the maid to gry heart,
+For their
+ceremen adming.
+
+First Servant:
+For how our prenger?
+
+LADY CAPULET:
+As both not sir, but Warwisdous him,
+That womb her movedurn
+Tarking, you know and were counselt would,
+The boot an-some
