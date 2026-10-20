@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 10000.0,
+  "ffn": "swiglu",
+  "kv_heads": 2,
+  "bias": 0,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/F_llama_s2.json",
+  "sample": 300,
+  "seed": 2
+ },
+ "params": 190144,
+ "kv_bytes_per_token": 1024,
+ "curve": [
+  [
+   0,
+   4.282291412353516,
+   4.287436008453369
+  ],
+  [
+   250,
+   2.0956878662109375,
+   2.136406660079956
+  ],
+  [
+   500,
+   1.8309104442596436,
+   1.957454800605774
+  ],
+  [
+   750,
+   1.7022018432617188,
+   1.857977271080017
+  ],
+  [
+   1000,
+   1.6257072687149048,
+   1.7873507738113403
+  ],
+  [
+   1250,
+   1.583979606628418,
+   1.7743656635284424
+  ],
+  [
+   1500,
+   1.5551148653030396,
+   1.7337820529937744
+  ],
+  [
+   1750,
+   1.5274336338043213,
+   1.715611219406128
+  ],
+  [
+   2000,
+   1.5006147623062134,
+   1.7039167881011963
+  ],
+  [
+   2250,
+   1.4870409965515137,
+   1.6919866800308228
+  ],
+  [
+   2500,
+   1.4719040393829346,
+   1.6938210725784302
+  ],
+  [
+   2750,
+   1.4697506427764893,
+   1.661930799484253
+  ],
+  [
+   3000,
+   1.454445242881775,
+   1.6555535793304443
+  ]
+ ],
+ "final_train": 1.454445242881775,
+ "final_val": 1.6555535793304443,
+ "seconds": 193.3,
+ "extrap": {
+  "T": 128,
+  "val": 1.9465255737304688
+ },
+ "sample": "\n\nKING LEWIS YORK:\nIt dire the news to tness, court, yet are\nSede a his colds of the maid thegne heart,\nFor their\ncereign fament.\n\nFirst Lord Slean by them and for the presence,\nShe but not night: 'twas men court? him you out;\nThan thought darery to need form and were course?\nDooe may I swoouden-sorr"
+}
