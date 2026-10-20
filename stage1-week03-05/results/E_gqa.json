@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 10000.0,
+  "ffn": "swiglu",
+  "kv_heads": 2,
+  "bias": 1,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/E_gqa.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 192097,
+ "kv_bytes_per_token": 1024,
+ "curve": [
+  [
+   0,
+   4.444634914398193,
+   4.441797256469727
+  ],
+  [
+   250,
+   2.070633888244629,
+   2.112361192703247
+  ],
+  [
+   500,
+   1.8207892179489136,
+   1.9331424236297607
+  ],
+  [
+   750,
+   1.7115464210510254,
+   1.857519507408142
+  ],
+  [
+   1000,
+   1.6365617513656616,
+   1.813521146774292
+  ],
+  [
+   1250,
+   1.5962202548980713,
+   1.7847737073898315
+  ],
+  [
+   1500,
+   1.555923342704773,
+   1.7524735927581787
+  ],
+  [
+   1750,
+   1.5386384725570679,
+   1.7484283447265625
+  ],
+  [
+   2000,
+   1.521481990814209,
+   1.7159526348114014
+  ],
+  [
+   2250,
+   1.5122281312942505,
+   1.6963783502578735
+  ],
+  [
+   2500,
+   1.4852887392044067,
+   1.683902621269226
+  ],
+  [
+   2750,
+   1.4781521558761597,
+   1.6790988445281982
+  ],
+  [
+   3000,
+   1.4638984203338623,
+   1.673730731010437
+  ]
+ ],
+ "final_train": 1.4638984203338623,
+ "final_val": 1.673730731010437,
+ "seconds": 198.0,
+ "extrap": {
+  "T": 128,
+  "val": 1.8842679262161255
+ },
+ "sample": "\n\nKING LEWIS XI:\nNo, more him down our and Lord.\n\nHENRY BOLINGBROKE:\nLook the craid to our prent here\nTo the quen\nLet it them confessial noble leavily of my harm?\nWhat I, wasn in the stand! nor his, but Wears die, him you have\nThan thoughly cames holy diff the agawfuls\nThe cut would you shall ance bu"
+}
