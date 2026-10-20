@@ -1,0 +1,24 @@
+配置: norm=rms pos=learned ffn=relu heads=4 kv_heads=4 bias=1 tie=0 rope_theta=10000
+参数量: 211201 (0.2112M) | KV cache 每个 token: 2048 字节 (fp32)
+step 0: train 4.3604, val 4.3705  (2s)
+step 250: train 2.4281, val 2.4432  (17s)
+step 500: train 2.2215, val 2.2390  (37s)
+step 750: train 2.0906, val 2.1391  (53s)
+step 1000: train 1.9696, val 2.0360  (68s)
+step 1250: train 1.8885, val 1.9919  (84s)
+step 1500: train 1.8144, val 1.9337  (99s)
+step 1750: train 1.7755, val 1.9097  (114s)
+step 2000: train 1.7268, val 1.8752  (130s)
+step 2250: train 1.6809, val 1.8454  (145s)
+step 2500: train 1.6497, val 1.8222  (160s)
+step 2750: train 1.6352, val 1.8165  (175s)
+step 3000: train 1.6077, val 1.7846  (192s)
+
+
+KING RICHARdaya, and my cour no, Statingbrod fe thou fear held
+And greaqure of be to like the father, that is u
+ceasit the procle'stat noble leady, are my larges never
+Succn if Gftisdurty. What a, but me be did
+Think up of you her;
+We wut carefit me do know and were could.
+He quicky I slay, and whi
