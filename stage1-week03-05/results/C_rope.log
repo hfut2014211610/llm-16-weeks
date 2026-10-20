@@ -1,0 +1,31 @@
+配置: norm=rms pos=rope ffn=relu heads=4 kv_heads=4 bias=1 tie=0 rope_theta=10000
+参数量: 207105 (0.2071M) | KV cache 每个 token: 2048 字节 (fp32)
+step 0: train 4.2421, val 4.2425  (2s)
+step 250: train 2.0795, val 2.1191  (21s)
+step 500: train 1.8324, val 1.9462  (37s)
+step 750: train 1.7334, val 1.8742  (53s)
+step 1000: train 1.6561, val 1.8200  (70s)
+step 1250: train 1.6164, val 1.7700  (86s)
+step 1500: train 1.5861, val 1.7686  (102s)
+step 1750: train 1.5556, val 1.7386  (118s)
+step 2000: train 1.5371, val 1.7223  (134s)
+step 2250: train 1.5091, val 1.6987  (149s)
+step 2500: train 1.5078, val 1.6872  (165s)
+step 2750: train 1.4919, val 1.6821  (180s)
+step 3000: train 1.4951, val 1.6727  (195s)
+外推：训练长度 64，在长度 128 上 val 1.8133
+
+
+KING EDWARD IV:
+This is here no, onlesness, cou thy earth held like of quit of be
+tigor to grieved,
+Two too, an
+certigu fames, mean, help, like cold them and for not presence is fear both.
+
+POMPEY:
+The enves it you usurpose;
+More like turn
+Take too you king and were could to soul.
+
+CORIOLANUS:
+No, 
