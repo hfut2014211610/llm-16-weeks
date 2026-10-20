@@ -1,0 +1,97 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "learned",
+  "rope_theta": 10000.0,
+  "ffn": "relu",
+  "kv_heads": null,
+  "bias": 1,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 0,
+  "log": "results/B_rms.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 211201,
+ "kv_bytes_per_token": 2048,
+ "curve": [
+  [
+   0,
+   4.36043643951416,
+   4.370479106903076
+  ],
+  [
+   250,
+   2.428098678588867,
+   2.4432475566864014
+  ],
+  [
+   500,
+   2.2215070724487305,
+   2.2390384674072266
+  ],
+  [
+   750,
+   2.090583562850952,
+   2.1390624046325684
+  ],
+  [
+   1000,
+   1.969614863395691,
+   2.0360453128814697
+  ],
+  [
+   1250,
+   1.8885314464569092,
+   1.9918957948684692
+  ],
+  [
+   1500,
+   1.8144229650497437,
+   1.933742880821228
+  ],
+  [
+   1750,
+   1.7754967212677002,
+   1.9097317457199097
+  ],
+  [
+   2000,
+   1.7268389463424683,
+   1.8751505613327026
+  ],
+  [
+   2250,
+   1.6808967590332031,
+   1.8454159498214722
+  ],
+  [
+   2500,
+   1.6497288942337036,
+   1.8221975564956665
+  ],
+  [
+   2750,
+   1.635219693183899,
+   1.8165396451950073
+  ],
+  [
+   3000,
+   1.6076655387878418,
+   1.7845791578292847
+  ]
+ ],
+ "final_train": 1.6076655387878418,
+ "final_val": 1.7845791578292847,
+ "seconds": 192.2,
+ "sample": "\n\nKING RICHARdaya, and my cour no, Statingbrod fe thou fear held\nAnd greaqure of be to like the father, that is u\nceasit the procle'stat noble leady, are my larges never\nSuccn if Gftisdurty. What a, but me be did\nThink up of you her;\nWe wut carefit me do know and were could.\nHe quicky I slay, and whi"
+}
