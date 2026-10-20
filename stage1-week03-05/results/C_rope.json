@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 10000.0,
+  "ffn": "relu",
+  "kv_heads": null,
+  "bias": 1,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/C_rope.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 207105,
+ "kv_bytes_per_token": 2048,
+ "curve": [
+  [
+   0,
+   4.242108345031738,
+   4.2425031661987305
+  ],
+  [
+   250,
+   2.0795323848724365,
+   2.1190969944000244
+  ],
+  [
+   500,
+   1.8323544263839722,
+   1.9462463855743408
+  ],
+  [
+   750,
+   1.733400821685791,
+   1.8741930723190308
+  ],
+  [
+   1000,
+   1.6560754776000977,
+   1.8199900388717651
+  ],
+  [
+   1250,
+   1.6164119243621826,
+   1.77004075050354
+  ],
+  [
+   1500,
+   1.5860673189163208,
+   1.7685810327529907
+  ],
+  [
+   1750,
+   1.5555899143218994,
+   1.7385797500610352
+  ],
+  [
+   2000,
+   1.5371181964874268,
+   1.722334623336792
+  ],
+  [
+   2250,
+   1.5090930461883545,
+   1.6986994743347168
+  ],
+  [
+   2500,
+   1.507830023765564,
+   1.6871650218963623
+  ],
+  [
+   2750,
+   1.4918674230575562,
+   1.682122826576233
+  ],
+  [
+   3000,
+   1.4951308965682983,
+   1.672697901725769
+  ]
+ ],
+ "final_train": 1.4951308965682983,
+ "final_val": 1.672697901725769,
+ "seconds": 194.9,
+ "extrap": {
+  "T": 128,
+  "val": 1.8132529258728027
+ },
+ "sample": "\n\nKING EDWARD IV:\nThis is here no, onlesness, cou thy earth held like of quit of be\ntigor to grieved,\nTwo too, an\ncertigu fames, mean, help, like cold them and for not presence is fear both.\n\nPOMPEY:\nThe enves it you usurpose;\nMore like turn\nTake too you king and were could to soul.\n\nCORIOLANUS:\nNo, "
+}
