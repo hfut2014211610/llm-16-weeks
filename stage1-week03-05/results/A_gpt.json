@@ -1,0 +1,97 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "ln",
+  "pos": "learned",
+  "rope_theta": 10000.0,
+  "ffn": "relu",
+  "kv_heads": null,
+  "bias": 1,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 0,
+  "log": "results/A_gpt.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 211777,
+ "kv_bytes_per_token": 2048,
+ "curve": [
+  [
+   0,
+   4.3531365394592285,
+   4.3625969886779785
+  ],
+  [
+   250,
+   2.4264841079711914,
+   2.440781354904175
+  ],
+  [
+   500,
+   2.2208166122436523,
+   2.2418105602264404
+  ],
+  [
+   750,
+   2.089423418045044,
+   2.1356961727142334
+  ],
+  [
+   1000,
+   1.9617106914520264,
+   2.0285964012145996
+  ],
+  [
+   1250,
+   1.8778491020202637,
+   1.9841630458831787
+  ],
+  [
+   1500,
+   1.8001562356948853,
+   1.9185545444488525
+  ],
+  [
+   1750,
+   1.7563045024871826,
+   1.8963719606399536
+  ],
+  [
+   2000,
+   1.7069976329803467,
+   1.8565174341201782
+  ],
+  [
+   2250,
+   1.6674023866653442,
+   1.834956407546997
+  ],
+  [
+   2500,
+   1.6342663764953613,
+   1.8058947324752808
+  ],
+  [
+   2750,
+   1.6205333471298218,
+   1.7979830503463745
+  ],
+  [
+   3000,
+   1.599176287651062,
+   1.7755085229873657
+  ]
+ ],
+ "final_train": 1.599176287651062,
+ "final_val": 1.7755085229873657,
+ "seconds": 200.4,
+ "sample": "\n\nKING RICHARD III:\nGod you we no, Say tnow no fe tooke to thee else\nLoo!\n\nSecond Methang thegnly so,\nTwell our uncersied fames, me't, hence fullows,\nWorbought for need devern if God,\nThough is sig, but me besdied him.\n\nFirst;\nNow for lowund\nTaken: my do kispouagn, I seequest but conyrab, wheneses bu"
+}
