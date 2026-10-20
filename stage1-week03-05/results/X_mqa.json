@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 10000.0,
+  "ffn": "swiglu",
+  "kv_heads": 1,
+  "bias": 0,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/X_mqa.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 181952,
+ "kv_bytes_per_token": 512,
+ "curve": [
+  [
+   0,
+   4.350694179534912,
+   4.352670192718506
+  ],
+  [
+   250,
+   2.051328659057617,
+   2.0960423946380615
+  ],
+  [
+   500,
+   1.8221207857131958,
+   1.9417532682418823
+  ],
+  [
+   750,
+   1.7048978805541992,
+   1.8535981178283691
+  ],
+  [
+   1000,
+   1.6425917148590088,
+   1.7936559915542603
+  ],
+  [
+   1250,
+   1.5897564888000488,
+   1.7789160013198853
+  ],
+  [
+   1500,
+   1.5574934482574463,
+   1.7382309436798096
+  ],
+  [
+   1750,
+   1.5479867458343506,
+   1.7241013050079346
+  ],
+  [
+   2000,
+   1.5196408033370972,
+   1.7177952527999878
+  ],
+  [
+   2250,
+   1.5090140104293823,
+   1.683679223060608
+  ],
+  [
+   2500,
+   1.496538519859314,
+   1.6829159259796143
+  ],
+  [
+   2750,
+   1.4805810451507568,
+   1.6733819246292114
+  ],
+  [
+   3000,
+   1.474613904953003,
+   1.6722506284713745
+  ]
+ ],
+ "final_train": 1.474613904953003,
+ "final_val": 1.6722506284713745,
+ "seconds": 185.9,
+ "extrap": {
+  "T": 128,
+  "val": 1.954168677330017
+ },
+ "sample": "\n\nKING Loness to you for the readop to tneys,\nAnd thou fear her else: there, RoII we made them,\nGreporeters, inducter it them comfort, hence now of lie,\nbut have son?\n\nMENENIUS:\nSo could thunder is, but men other, him without;\nThan like turn\nThey home die; though were couverst sou may I that,\nAnd whi"
+}
