@@ -1,0 +1,29 @@
+配置: norm=ln pos=learned ffn=relu heads=4 kv_heads=4 bias=1 tie=0 rope_theta=10000
+参数量: 211777 (0.2118M) | KV cache 每个 token: 2048 字节 (fp32)
+step 0: train 4.3531, val 4.3626  (2s)
+step 250: train 2.4265, val 2.4408  (16s)
+step 500: train 2.2208, val 2.2418  (31s)
+step 750: train 2.0894, val 2.1357  (47s)
+step 1000: train 1.9617, val 2.0286  (64s)
+step 1250: train 1.8778, val 1.9842  (80s)
+step 1500: train 1.8002, val 1.9186  (96s)
+step 1750: train 1.7563, val 1.8964  (115s)
+step 2000: train 1.7070, val 1.8565  (134s)
+step 2250: train 1.6674, val 1.8350  (152s)
+step 2500: train 1.6343, val 1.8059  (168s)
+step 2750: train 1.6205, val 1.7980  (184s)
+step 3000: train 1.5992, val 1.7755  (200s)
+
+
+KING RICHARD III:
+God you we no, Say tnow no fe tooke to thee else
+Loo!
+
+Second Methang thegnly so,
+Twell our uncersied fames, me't, hence fullows,
+Worbought for need devern if God,
+Though is sig, but me besdied him.
+
+First;
+Now for lowund
+Taken: my do kispouagn, I seequest but conyrab, wheneses bu
