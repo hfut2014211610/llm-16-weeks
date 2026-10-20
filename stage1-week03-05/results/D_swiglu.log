@@ -1,0 +1,27 @@
+配置: norm=rms pos=rope ffn=swiglu heads=4 kv_heads=4 bias=1 tie=0 rope_theta=10000
+参数量: 208481 (0.2085M) | KV cache 每个 token: 2048 字节 (fp32)
+step 0: train 4.3048, val 4.2919  (2s)
+step 250: train 2.0413, val 2.0870  (23s)
+step 500: train 1.7876, val 1.9105  (43s)
+step 750: train 1.6715, val 1.8298  (63s)
+step 1000: train 1.6029, val 1.7656  (81s)
+step 1250: train 1.5754, val 1.7661  (100s)
+step 1500: train 1.5439, val 1.7249  (117s)
+step 1750: train 1.5077, val 1.7171  (135s)
+step 2000: train 1.4907, val 1.6775  (152s)
+step 2250: train 1.4747, val 1.6872  (170s)
+step 2500: train 1.4639, val 1.6631  (187s)
+step 2750: train 1.4518, val 1.6827  (204s)
+step 3000: train 1.4386, val 1.6631  (221s)
+外推：训练长度 64，在长度 128 上 val 1.8456
+
+
+KING LEWIS XI:
+No, for the rings on a nobleman king,
+But and delivegreequirect by that God,
+His soon, that it u
+ceptitio
+To confessible, but leading them and for need.
+Supposed to but not. What and do men codled him
+To poor grant like was cares too. How matchann,
+Is convertols; consul, boy, an-sobe
