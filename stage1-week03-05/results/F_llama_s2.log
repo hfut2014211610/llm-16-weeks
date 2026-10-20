@@ -1,0 +1,28 @@
+配置: norm=rms pos=rope ffn=swiglu heads=4 kv_heads=2 bias=0 tie=0 rope_theta=10000
+参数量: 190144 (0.1901M) | KV cache 每个 token: 1024 字节 (fp32)
+step 0: train 4.2823, val 4.2874  (2s)
+step 250: train 2.0957, val 2.1364  (18s)
+step 500: train 1.8309, val 1.9575  (34s)
+step 750: train 1.7022, val 1.8580  (50s)
+step 1000: train 1.6257, val 1.7874  (66s)
+step 1250: train 1.5840, val 1.7744  (82s)
+step 1500: train 1.5551, val 1.7338  (98s)
+step 1750: train 1.5274, val 1.7156  (114s)
+step 2000: train 1.5006, val 1.7039  (130s)
+step 2250: train 1.4870, val 1.6920  (146s)
+step 2500: train 1.4719, val 1.6938  (162s)
+step 2750: train 1.4698, val 1.6619  (177s)
+step 3000: train 1.4544, val 1.6556  (193s)
+外推：训练长度 64，在长度 128 上 val 1.9465
+
+
+KING LEWIS YORK:
+It dire the news to tness, court, yet are
+Sede a his colds of the maid thegne heart,
+For their
+cereign fament.
+
+First Lord Slean by them and for the presence,
+She but not night: 'twas men court? him you out;
+Than thought darery to need form and were course?
+Dooe may I swoouden-sorr
