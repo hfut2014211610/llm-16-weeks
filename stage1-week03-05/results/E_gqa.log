@@ -1,0 +1,28 @@
+配置: norm=rms pos=rope ffn=swiglu heads=4 kv_heads=2 bias=1 tie=0 rope_theta=10000
+参数量: 192097 (0.1921M) | KV cache 每个 token: 1024 字节 (fp32)
+step 0: train 4.4446, val 4.4418  (2s)
+step 250: train 2.0706, val 2.1124  (19s)
+step 500: train 1.8208, val 1.9331  (36s)
+step 750: train 1.7115, val 1.8575  (52s)
+step 1000: train 1.6366, val 1.8135  (68s)
+step 1250: train 1.5962, val 1.7848  (85s)
+step 1500: train 1.5559, val 1.7525  (101s)
+step 1750: train 1.5386, val 1.7484  (117s)
+step 2000: train 1.5215, val 1.7160  (133s)
+step 2250: train 1.5122, val 1.6964  (149s)
+step 2500: train 1.4853, val 1.6839  (165s)
+step 2750: train 1.4782, val 1.6791  (182s)
+step 3000: train 1.4639, val 1.6737  (198s)
+外推：训练长度 64，在长度 128 上 val 1.8843
+
+
+KING LEWIS XI:
+No, more him down our and Lord.
+
+HENRY BOLINGBROKE:
+Look the craid to our prent here
+To the quen
+Let it them confessial noble leavily of my harm?
+What I, wasn in the stand! nor his, but Wears die, him you have
+Than thoughly cames holy diff the agawfuls
+The cut would you shall ance bu
