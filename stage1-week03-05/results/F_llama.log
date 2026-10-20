@@ -1,0 +1,28 @@
+配置: norm=rms pos=rope ffn=swiglu heads=4 kv_heads=2 bias=0 tie=0 rope_theta=10000
+参数量: 190144 (0.1901M) | KV cache 每个 token: 1024 字节 (fp32)
+step 0: train 4.3499, val 4.3560  (2s)
+step 250: train 2.0740, val 2.1067  (18s)
+step 500: train 1.8051, val 1.9249  (33s)
+step 750: train 1.6781, val 1.8576  (50s)
+step 1000: train 1.6158, val 1.7948  (67s)
+step 1250: train 1.5730, val 1.7699  (83s)
+step 1500: train 1.5393, val 1.7457  (99s)
+step 1750: train 1.5111, val 1.7411  (114s)
+step 2000: train 1.5078, val 1.7094  (132s)
+step 2250: train 1.4961, val 1.7029  (150s)
+step 2500: train 1.4726, val 1.6999  (167s)
+step 2750: train 1.4686, val 1.6871  (183s)
+step 3000: train 1.4488, val 1.6901  (199s)
+外推：训练长度 64，在长度 128 上 val 1.9068
+
+LUCDIO:
+What to you for ere tong, one and bed.
+
+HERMIONE:
+My gorrimity comes Warwick's hold,
+How so,
+Two look in
+cerefer fames, my love not like colve my false of the presence,
+Shall butt; nor his, but well should thus alone;
+Now, like wunder eyes my diff thou hast so
+she come, unmally that that whi
