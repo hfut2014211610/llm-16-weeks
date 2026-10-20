@@ -1,0 +1,32 @@
+配置: norm=ln pos=learned ffn=relu heads=4 kv_heads=4 bias=1 tie=0 rope_theta=10000
+参数量: 211777 (0.2118M) | KV cache 每个 token: 2048 字节 (fp32)
+step 0: train 4.4173, val 4.4184  (2s)
+step 250: train 2.4291, val 2.4422  (15s)
+step 500: train 2.2153, val 2.2380  (29s)
+step 750: train 2.0626, val 2.1069  (43s)
+step 1000: train 1.9535, val 2.0283  (56s)
+step 1250: train 1.8664, val 1.9643  (69s)
+step 1500: train 1.7941, val 1.9101  (83s)
+step 1750: train 1.7441, val 1.8777  (96s)
+step 2000: train 1.7076, val 1.8675  (111s)
+step 2250: train 1.6652, val 1.8152  (125s)
+step 2500: train 1.6357, val 1.8034  (139s)
+step 2750: train 1.6182, val 1.7950  (154s)
+step 3000: train 1.5855, val 1.7603  (168s)
+
+
+KIDY LING
+Than you for the sun of the nobled fe thy efear heed
+Will that report we man's planly soo
+Two look au
+certier fament.
+
+FORKERS RICHARD III:
+
+Roman:
+Thy name deval, if God, thought hast:'
+What thou die you laught'st to not
+Willund
+Take toon abok thou have steequed? but consurs, what?
+
+LEON
