@@ -1,0 +1,28 @@
+配置: norm=rms pos=rope ffn=swiglu heads=4 kv_heads=1 bias=0 tie=0 rope_theta=10000
+参数量: 181952 (0.1820M) | KV cache 每个 token: 512 字节 (fp32)
+step 0: train 4.3507, val 4.3527  (2s)
+step 250: train 2.0513, val 2.0960  (17s)
+step 500: train 1.8221, val 1.9418  (32s)
+step 750: train 1.7049, val 1.8536  (48s)
+step 1000: train 1.6426, val 1.7937  (63s)
+step 1250: train 1.5898, val 1.7789  (78s)
+step 1500: train 1.5575, val 1.7382  (93s)
+step 1750: train 1.5480, val 1.7241  (108s)
+step 2000: train 1.5196, val 1.7178  (124s)
+step 2250: train 1.5090, val 1.6837  (140s)
+step 2500: train 1.4965, val 1.6829  (155s)
+step 2750: train 1.4806, val 1.6734  (170s)
+step 3000: train 1.4746, val 1.6723  (186s)
+外推：训练长度 64，在长度 128 上 val 1.9542
+
+
+KING Loness to you for the readop to tneys,
+And thou fear her else: there, RoII we made them,
+Greporeters, inducter it them comfort, hence now of lie,
+but have son?
+
+MENENIUS:
+So could thunder is, but men other, him without;
+Than like turn
+They home die; though were couverst sou may I that,
+And whi
