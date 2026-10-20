@@ -1,0 +1,101 @@
+{
+ "args": {
+  "steps": 3000,
+  "norm": "rms",
+  "pos": "rope",
+  "rope_theta": 10000.0,
+  "ffn": "swiglu",
+  "kv_heads": 2,
+  "bias": 0,
+  "tie": 0,
+  "n_embd": 64,
+  "n_head": 4,
+  "n_layer": 4,
+  "block_size": 64,
+  "batch_size": 32,
+  "lr": 0.001,
+  "eval_interval": 250,
+  "eval_iters": 50,
+  "extrap": 128,
+  "log": "results/F_llama.json",
+  "sample": 300,
+  "seed": 1337
+ },
+ "params": 190144,
+ "kv_bytes_per_token": 1024,
+ "curve": [
+  [
+   0,
+   4.349909782409668,
+   4.355985641479492
+  ],
+  [
+   250,
+   2.074014186859131,
+   2.1066982746124268
+  ],
+  [
+   500,
+   1.805064082145691,
+   1.924869179725647
+  ],
+  [
+   750,
+   1.6781245470046997,
+   1.8576449155807495
+  ],
+  [
+   1000,
+   1.6157718896865845,
+   1.794753074645996
+  ],
+  [
+   1250,
+   1.5730175971984863,
+   1.7699116468429565
+  ],
+  [
+   1500,
+   1.539337158203125,
+   1.74568772315979
+  ],
+  [
+   1750,
+   1.5111004114151,
+   1.741105079650879
+  ],
+  [
+   2000,
+   1.507763385772705,
+   1.7094454765319824
+  ],
+  [
+   2250,
+   1.4961134195327759,
+   1.7028826475143433
+  ],
+  [
+   2500,
+   1.472630500793457,
+   1.699886679649353
+  ],
+  [
+   2750,
+   1.4686415195465088,
+   1.6870900392532349
+  ],
+  [
+   3000,
+   1.4488329887390137,
+   1.690056562423706
+  ]
+ ],
+ "final_train": 1.4488329887390137,
+ "final_val": 1.690056562423706,
+ "seconds": 198.9,
+ "extrap": {
+  "T": 128,
+  "val": 1.906835913658142
+ },
+ "sample": "\nLUCDIO:\nWhat to you for ere tong, one and bed.\n\nHERMIONE:\nMy gorrimity comes Warwick's hold,\nHow so,\nTwo look in\ncerefer fames, my love not like colve my false of the presence,\nShall butt; nor his, but well should thus alone;\nNow, like wunder eyes my diff thou hast so\nshe come, unmally that that whi"
+}
